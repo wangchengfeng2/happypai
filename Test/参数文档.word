@@ -1,0 +1,14 @@
+1.注册页面:{"nickname":"",
+          "phone":"",
+          "password":"",}
+   return {"result":"注册成功/注册失败"}     
+     
+         注册判断：{"nickname":"",
+          "phone":""}
+     return {"result":"通过/昵称已被使用/手机号已被注册号"}   
+     
+     
+   
+2. 登录页面:{"identifying":"",
+          "password":"",}
+   return {"result":"登录成功/用户名或者密码不正确"}     
