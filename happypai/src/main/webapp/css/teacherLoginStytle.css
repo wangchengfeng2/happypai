@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+h1{
+	text-align:center
+}
+h2{
+	text-align:center
+}
+
+#head{
+	margin:0;
+	background-color: silver;	
+}
+
+#right{
+	
+  margin-right:300px;
+     float: right;
+
+}
+
+br{
+	margin: 20px;
+}
+
+.inputTest{
+	height: 20px;
+}
+span{
+	color: red;
+}

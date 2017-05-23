@@ -1,0 +1,90 @@
+@CHARSET "UTF-8";
+
+
+body{
+	background-color: #abf0fc;
+}
+
+.studenttd{
+	text-align:center;
+	 border:1px solid;
+	 
+}
+#leftpanel {
+
+	
+	 z-index:3;
+	position: fixed;
+	left: 20px;
+	top:100px;
+	
+}
+
+#leftpanel p{
+	padding-left: 25px;
+	padding-bottom: 10px;
+}
+.btn{
+	width: 180px;
+	height:36px;
+	margin: 8px;
+	background-color: #83c9c7;
+}
+#rightpanel{
+	
+	position: fixed;
+	left: 258px;
+	top:170px;
+	width:1300px;
+
+}
+#northpanel{
+	background-color:white;
+	 z-index:3;
+	position: fixed;
+	left: 280px;
+	top:20px;
+	width:1000px;
+	
+}
+#statetable td{
+	border:2px solid;
+	border-bottom-color:#26246f;
+	margin: 10px;	
+	width: 200px;
+	height: 100px;
+}
+
+#northpanel td{
+	text-align:center;	
+	width: 180px;
+     height:25px;
+}
+
+
+/* 状态不同颜色不同 */
+/* 1 */
+.nologin{
+	background-color: #dadada;
+}
+/* }2 */
+.login{
+	background-color: white;
+}
+/* 3 */
+.starttest{
+	background-color: #ffff1c;
+}
+/* 4 */
+.discipline{
+	background-color: #fb64ef;
+}
+/* 5 */
+.cheat{
+    background-color: #ff4848;
+}
+/* 6 */
+.over{
+	background-color: #7cd722;
+}
+
